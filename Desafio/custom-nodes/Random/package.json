@@ -1,0 +1,18 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "1.0.0",
+  "description": "Custom node para gerar números aleatórios usando Random.org",
+  "main": "dist/Random.node.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "n8n-core": "^1.112.1",
+    "n8n-workflow": "^1.112.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.0"
+  }
+}
