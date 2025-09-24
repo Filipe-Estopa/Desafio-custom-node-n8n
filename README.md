@@ -42,7 +42,7 @@ docker compose up -d
 
 2. Acesse o n8n no navegador:  
 
-👉 [http://localhost:5678](http://localhost:5678)  
+ [http://localhost:5678](http://localhost:5678)  
 
 ---
 
