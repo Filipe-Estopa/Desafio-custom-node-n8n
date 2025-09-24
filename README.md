@@ -1,10 +1,10 @@
-# 📌 Desafio: Custom Node n8n – Random Number Generator
+#  Desafio: Custom Node n8n – Random Number Generator
 
 Este repositório contém um **Custom Node para o n8n** chamado **Random**, que utiliza a API do [Random.org](https://www.random.org/) para gerar números aleatórios verdadeiros entre valores mínimo e máximo fornecidos pelo usuário.  
 
 ---
 
-## 📦 Instalação das dependências
+##  Instalação das dependências
 
 Antes de compilar o node, é necessário instalar as dependências.  
 
@@ -28,7 +28,7 @@ npm run build
 
 ---
 
-## 🐳 Executando o serviço localmente (Docker)
+##  Executando o serviço localmente (Docker)
 
 A aplicação utiliza **Docker Compose** para subir o ambiente com:  
 - **PostgreSQL** (banco de dados do n8n).  
@@ -46,7 +46,7 @@ docker compose up -d
 
 ---
 
-## ⚙️ Configuração do ambiente
+##  Configuração do ambiente
 
 As variáveis de ambiente já estão configuradas no `docker-compose.yml`.  
 
@@ -61,7 +61,7 @@ environment:
   N8N_PORT: 5678
 ```
 
-📌 **Resumo da configuração**  
+ **Resumo da configuração**  
 - Banco: `PostgreSQL`  
 - Usuário: `n8n`  
 - Senha: `n8n`  
@@ -79,7 +79,7 @@ Isso garante que o n8n consiga carregar o seu node **Random**.
 
 ---
 
-## 🧪 Executando os testes
+##  Executando os testes
 
 O node pode ser testado diretamente dentro do n8n:  
 
@@ -88,19 +88,11 @@ O node pode ser testado diretamente dentro do n8n:
 3. Clique em **+ Add Node** e selecione **Random**.  
 4. Escolha a operação **True Random Number Generator**.  
 5. Defina valores para **Min** e **Max**.  
-6. Execute o workflow → O retorno será um JSON com um número aleatório:  
-
-```json
-[
-  {
-    "randomNumber": 42
-  }
-]
-```
+6. Execute o workflow → O retorno será um número aleatório.
 
 ---
 
-## 📂 Estrutura de pastas
+##  Estrutura de pastas
 
 ```
 Desafio/
@@ -112,12 +104,11 @@ Desafio/
  │         ├── tsconfig.json      # Configuração do TypeScript
  │         └── dist/              # Código compilado (gerado pelo build)
  ├── docker-compose.yml
- └── README.md
 ```
 
 ---
 
-## 🖼️ Ícone do Node
+##  Ícone do Node
 
 O node utiliza um ícone SVG localizado em `random.svg`.  
 A referência é feita no código:  
@@ -128,7 +119,7 @@ icon: 'file:random.svg',
 
 ---
 
-## ℹ️ Informações adicionais
+##  Informações adicionais
 
 - Sempre que alterar o código do node, rode:  
 
