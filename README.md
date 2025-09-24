@@ -20,6 +20,8 @@ Mas você pode usar sem WSL também.
 
 Reinicie o PC depois da instalação.
 
+4. Intalar o VS Code
+
 ##  Instalação das dependências
 
 Antes de compilar o node, é necessário instalar as dependências.  
