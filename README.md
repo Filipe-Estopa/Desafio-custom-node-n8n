@@ -4,6 +4,22 @@ Este repositório contém um **Custom Node para o n8n** chamado **Random**, que 
 
 ---
 
+## Instalar os programas necessários
+
+1. Instalar o Node.js 22 LTS
+
+Durante a instalação, marque a opção Add to PATH.
+
+2. Instalar o Docker Desktop
+
+Ative a integração com o WSL2 (se aparecer a opção).
+
+Mas você pode usar sem WSL também.
+
+3. Instalar o Git
+
+Reinicie o PC depois da instalação.
+
 ##  Instalação das dependências
 
 Antes de compilar o node, é necessário instalar as dependências.  
